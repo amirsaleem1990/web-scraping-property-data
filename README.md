@@ -1,7 +1,6 @@
 # Scraper Class for Property Data Retrieval
 
 > This Python code is a web scraping utility designed to gather real estate property data from various websites, including Bayut, JustProperty, and PropertyFinder. The code is organized into classes and methods for ease of use. The primary purpose of the code is to collect property listings, including details such as price, location, and contact information, and store the data for further analysis or application.
-Usage
 
 ### To utilize this scraper, follow these steps:
 
@@ -19,7 +18,7 @@ Usage
 * property_finder.rent.fetch_data_using_add_link(): Fetches property details for the rent listings and stores them in a DataFrame.
 
 ## Requirements
-Before using this scraper, you need to install the required Python packages:
+Before using this scraper, you should have the following Python packages:
 
 * pandas: Data manipulation library
 * requests: HTTP library for making web requests
